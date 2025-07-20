@@ -11,7 +11,8 @@
     "commit": "cz",
     "pretty-quick": "pretty-quick --staged",
     "lint": "ng lint --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "release": "release-it"
   },
   "prettier": {
     "overrides": [
@@ -58,6 +59,7 @@
     "@commitlint/config-angular": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.31.0",
+    "@release-it/conventional-changelog": "^10.0.1",
     "@types/jasmine": "~5.1.0",
     "angular-eslint": "20.1.1",
     "commitizen": "^4.3.1",
@@ -81,7 +83,14 @@
     "npm": "^11.4.2",
     "prettier": "^3.6.2",
     "pretty-quick": "^4.2.2",
+    "release-it": "^19.0.4",
     "typescript": "~5.8.2",
     "typescript-eslint": "8.34.1"
+  },
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+    "github": {
+      "release": true
+    }
   }
 }
