@@ -1,42 +1,64 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "npm",
-      "script": "start",
+      "label": "mise: dev",
+      "type": "process",
+      "command": "mise",
+      "args": ["run", "dev"],
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
         "pattern": "$tsc",
         "background": {
           "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
+          "beginsPattern": "Building",
+          "endsPattern": "Local:.*http://localhost:4200"
         }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
       }
     },
     {
-      "type": "npm",
-      "script": "test",
-      "isBackground": true,
-      "problemMatcher": {
-        "owner": "typescript",
-        "pattern": "$tsc",
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
-        }
+      "label": "mise: install",
+      "type": "process",
+      "command": "mise",
+      "args": ["run", "install"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mise: build",
+      "type": "process",
+      "command": "mise",
+      "args": ["run", "build"],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
+    },
+    {
+      "label": "mise: lint",
+      "type": "process",
+      "command": "mise",
+      "args": ["run", "lint"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mise: test",
+      "type": "process",
+      "command": "mise",
+      "args": ["run", "test"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mise: check",
+      "type": "process",
+      "command": "mise",
+      "args": ["run", "check"],
+      "problemMatcher": []
     }
   ]
 }

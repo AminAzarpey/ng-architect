@@ -1,120 +1,59 @@
-# 🧱 ng-architect
+# ng-architect
 
-A modern and scalable **Angular 20+ starter architecture** for building enterprise-grade ERP systems. Designed for modularity, maintainability, and productivity, this project includes a full CI-ready setup, dynamic lazy loading, Material + Tailwind hybrid UI support, and git-based changelog/versioning workflows.
+An Angular 22 standalone starter for applications organized around domain boundaries. The current application is the Angular welcome screen; domain features, authentication, and backend integration are left to applications built from this starter.
 
----
+## Getting started
 
-## 🚀 Features
+Install [mise](https://mise.jdx.dev/), then run:
 
-- ✅ **Angular 20 Standalone Architecture**
-- 🧩 Modular DDD-style folder structure
-- 📦 **Dynamic Component Rendering** (e.g. lazy grids, cards, panels)
-- 🪝 Signal-based State & Reactive UX (ready for Angular Signals Store)
-- 🎨 TailwindCSS + Angular Material integration
-- 🌐 i18n ready, mock-auth included
-- 🧪 Karma + Jasmine Testing + E2E scaffolding
-- 📜 Conventional commits + auto-generated changelog (`release-it`)
-- ✨ Prettier + ESLint + Husky + Commitizen
-
----
-
-## 📁 Project Structure (DDD Friendly)
-
-```
-src/
-├── app/
-│   ├── core/               # services, interceptors, configuration
-│   ├── features/           # feature modules, one per domain
-│   ├── shared/             # shared components, directives, pipes
-│   └── app.config.ts       # standalone app setup
-├── assets/                 # images, translations
-└── main.ts                 # bootstrap logic
-```
-
----
-
-## 🛠 Getting Started
-
-```bash
-# Clone the project
+```sh
 git clone https://github.com/AminAzarpey/ng-architect.git
 cd ng-architect
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run start
+mise trust
+mise install
+mise run install
+mise run dev
 ```
 
----
+The development server runs at http://localhost:4200. `mise.toml` pins Node 24.21.0, npm 12.2.0, RTK 0.47.0, graphifyy 0.9.53, and Husky 9.1.7. Husky is also a local development dependency so installation configures the repository hooks.
 
-## ⚙️ Development Scripts
+## Stack and checks
 
-| Script            | Description                       |
-| ----------------- | --------------------------------- |
-| `npm run start`   | Start local dev server (with HMR) |
-| `npm run build`   | Build for production              |
-| `npm run test`    | Run unit tests                    |
-| `npm run lint`    | Run ESLint + auto-fix             |
-| `npm run format`  | Format using Prettier             |
-| `npm run commit`  | Commit using Commitizen prompt    |
-| `npm run release` | Bump version, generate changelog  |
+Angular, CLI, Material, and CDK use version 22.2.1. TypeScript stays on 6.0.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`.
 
----
+| Command                         | Purpose                                                                     |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| `mise run check`                | Check formatting, application types, lint, unit tests, and production build |
+| `mise run build`                | Build for production                                                        |
+| `mise run lint`                 | Check lint without rewriting files                                          |
+| `mise run test`                 | Run Vitest unit tests once                                                  |
+| `mise exec -- npm test`         | Run unit tests in watch mode                                                |
+| `mise exec -- npm run lint:fix` | Apply lint fixes                                                            |
+| `mise exec -- npm run format`   | Format maintained project files                                             |
+| `mise exec -- npm run commit`   | Open the Conventional Commits prompt                                        |
 
-## ✨ Git & Release Workflow
+Tests use Angular's unit-test builder with Vitest and jsdom. The starter does not include an end-to-end test suite. VS Code tasks and launch configurations use mise to select the same tool versions.
 
-This project uses:
+## Domain-oriented organization
 
-- **Conventional Commits** (`cz`, `commitizen`, `commitlint`)
-- **Release-it** with `@release-it/conventional-changelog`
+Keep business rules independent of UI and transport libraries. As features are added, group their domain models, application use cases, infrastructure adapters, and presentation components under `src/app/features/<domain>/`. Use `core` for application-wide infrastructure and `shared` for reusable UI and utilities. These are architectural conventions, not implemented business features in this starter.
 
-### Example Release Flow
+## Git and release workflow
 
-```bash
-# Stage and commit as usual (use `npm run commit`)
-npm run commit
+Husky runs lint-staged before commits, validates Conventional Commit messages, and runs the full check task before pushes. Commitizen, commitlint, and release-it support the existing release workflow.
 
-# Run release with changelog, version bump, and GitHub tag
-npm run release
+```sh
+mise exec -- npm run release
 ```
 
-> This will update the version, modify `CHANGELOG.md`, and push a GitHub release tag.
+The release command updates the version and changelog and can create and push release commits, tags, and a GitHub release. Use it only when preparing a release.
 
----
+## AI-assisted development
 
-## 🧪 Testing
+Repository skills under `.agents/skills` provide Angular and PrimeNG guidance. PrimeNG guidance is available for projects choosing that library; the starter itself uses Material. `.codex/skills/graphify` and `AGENTS.md` describe codebase graph navigation and updates. `CLAUDE.md` and `.rtk/filters.toml` document RTK usage.
 
-```bash
-npm run test       # run unit tests (Karma + Jasmine)
-```
+Generated `graphify-out/` content and local `.codex/hooks.json` are ignored. Skill files are excluded from the application formatting check so their supplied content is preserved.
 
-> Cypress or Playwright can be added for E2E testing.
-
----
-
-## 🧰 Tooling Overview
-
-| Tool        | Purpose                     |
-| ----------- | --------------------------- |
-| Angular 20  | Main front-end framework    |
-| TailwindCSS | Utility-first styling       |
-| Material    | UI Components & UX patterns |
-| ESLint      | Static code analysis        |
-| Prettier    | Code formatting             |
-| Husky       | Git hooks                   |
-| Commitizen  | Conventional commits        |
-| Release-it  | Versioning & changelog      |
-
----
-
-## 📒 Changelog
-
-See [CHANGELOG.md](./CHANGELOG.md) for commit-based release notes.
-
----
-
-## 📜 License
+## License
 
 MIT © [Amin Azarpey](https://github.com/AminAzarpey)
