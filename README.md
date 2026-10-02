@@ -19,7 +19,7 @@ The development server runs at http://localhost:4200. `mise.toml` pins Node 24.2
 
 ## Stack and checks
 
-Angular, CLI, Material, and CDK use version 22.2.1. TypeScript stays on 6.0.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`.
+Angular, CLI, Material, and CDK use version 22.2.1. TypeScript stays on 6.0.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`. PrimeNG 22.1.2 is also configured with Aura and PrimeIcons. Keep PrimeNG, Material, and Tailwind available together; choose components through local imports. See [UI library choices](docs/UI-LIBRARIES.md) for examples and design boundaries.
 
 | Command                         | Purpose                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ The release command updates the version and changelog and can create and push re
 
 ## AI-assisted development
 
-Repository skills under `.agents/skills` provide Angular and PrimeNG guidance. PrimeNG guidance is available for projects choosing that library; the starter itself uses Material. `.codex/skills/graphify` and `AGENTS.md` describe codebase graph navigation and updates. `CLAUDE.md` and `.rtk/filters.toml` document RTK usage.
+Repository skills under `.agents/skills` provide Angular and PrimeNG guidance. PrimeNG and Material are both available for presentation components. `.codex/skills/graphify` and `AGENTS.md` describe codebase graph navigation and updates. `CLAUDE.md` and `.rtk/filters.toml` document RTK usage.
 
 Generated `graphify-out/` content and local `.codex/hooks.json` are ignored. Skill files are excluded from the application formatting check so their supplied content is preserved.
 
