@@ -42,7 +42,7 @@ Keep library imports in feature presentation components and reusable UI wrappers
 
 Retain both the Material Sass theme and PrimeNG's provider. Customize Material through its Sass/theme APIs and PrimeNG through design tokens. Prefer Tailwind for layout and spacing; avoid broad selectors or styling internal component DOM that could affect the other library. Tailwind's base reset is global, so verify the appearance of real controls from both libraries when changing global styles.
 
-When adding mixed-library screens, check keyboard navigation, focus restoration, validation states, dark mode, overlay stacking, responsive layout, and production bundle budgets. Library availability does not establish compatibility for every component combination. PrimeNG 22 also requires the appropriate PrimeUI license configuration; the installed starter has no license key configured.
+When adding mixed-library screens, check keyboard navigation, focus restoration, validation states, dark mode, overlay stacking, responsive layout, and production bundle budgets. Library availability does not establish compatibility for every component combination. PrimeNG 22 also requires the appropriate PrimeUI license configuration; supply your issued Community key using the [activation instructions](PRIMEUI-LICENSE.md).
 
 ## References
 

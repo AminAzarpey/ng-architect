@@ -57,3 +57,7 @@ Generated `graphify-out/` content and local `.codex/hooks.json` are ignored. Ski
 ## License
 
 MIT © [Amin Azarpey](https://github.com/AminAzarpey)
+
+## PrimeUI Community activation
+
+Use an issued Community license key through the ignored `.env.local` file or the `PRIMEUI_LICENSE_KEY` build environment variable. See [activation instructions](docs/PRIMEUI-LICENSE.md). Restart the dev server or rebuild after setting the key.
