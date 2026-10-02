@@ -84,7 +84,7 @@ Tailwind utilities may not beat component CSS specificity. Preferred fix: enable
 
 ```css
 /* Tailwind v4 */
-@layer theme, base, primeng, utilities;
+@layer theme, base, primeng, components, utilities;
 ```
 
 Last resort: the `!` important prefix (e.g. `!bg-red-500`).
@@ -97,3 +97,9 @@ If you use a manual `darkModeSelector` (e.g. `.app-dark`), align Tailwind's `dar
 
 - **PrimeIcons** (default): `pi pi-<name>` on an `<i>`/`<span>`, e.g. `<i class="pi pi-check"></i>`. Size via `font-size`, spin with `pi-spin`. Reference icons programmatically via `PrimeIcons.CHECK` (from `primeng/api`). See [icons.md](icons.md).
 - **Custom icons**: any FontAwesome/Material/image/inline-SVG can be used wherever an icon template or `icon` slot is accepted — pass your own markup via content projection or the relevant `*icon` template.
+
+## This repository's integration
+
+The project installs `tailwindcss-primeui` 0.6.1 and imports it after Tailwind in `src/tailwind.css`. PrimeNG uses the `primeng` CSS layer, ordered before `components` and `utilities`. `.app-dark` on the document root controls PrimeNG's preset, Tailwind's dark variant, and Material's color scheme together.
+
+Keep Material and Tailwind available when adding PrimeNG controls. Semantic utilities such as `bg-primary` use PrimeNG tokens; they do not automatically map Material's theme palette. Use Tailwind for layout with either component library and the respective public theme APIs for coherent color/typography choices.

@@ -38,3 +38,8 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+// Shared dark-mode selector for Material, PrimeNG, and Tailwind.
+html.app-dark {
+  color-scheme: dark;
+}

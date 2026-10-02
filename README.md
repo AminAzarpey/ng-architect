@@ -19,7 +19,7 @@ The development server runs at http://localhost:4200. `mise.toml` pins Node 24.2
 
 ## Stack and checks
 
-Angular uses 21.2.25, CLI/build 21.2.24, and Material/CDK 21.2.14. TypeScript stays on 5.9.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`. PrimeNG 21.1.10 is also configured with Aura and PrimeIcons. Keep PrimeNG, Material, and Tailwind available together; choose components through local imports. See [UI library choices](docs/UI-LIBRARIES.md) for examples and design boundaries.
+Angular uses 21.2.25, CLI/build 21.2.24, and Material/CDK 21.2.14. TypeScript stays on 5.9.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`. PrimeNG 21.1.10 is also configured with Aura and PrimeIcons. The official `tailwindcss-primeui` plugin supplies PrimeNG semantic utilities. Keep PrimeNG, Material, and Tailwind available together; choose components through local imports. See [UI library choices](docs/UI-LIBRARIES.md) for examples and design boundaries.
 
 | Command                         | Purpose                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------- |

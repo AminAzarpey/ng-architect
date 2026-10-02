@@ -57,7 +57,8 @@
     "tslib": "2.8.1",
     "primeng": "21.1.10",
     "@primeuix/themes": "2.0.3",
-    "primeicons": "8.0.2"
+    "primeicons": "8.0.2",
+    "tailwindcss-primeui": "0.6.1"
   },
   "devDependencies": {
     "@angular/build": "21.2.24",
