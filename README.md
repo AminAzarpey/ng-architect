@@ -1,6 +1,6 @@
 # ng-architect
 
-An Angular 22 standalone starter for applications organized around domain boundaries. The current application is the Angular welcome screen; domain features, authentication, and backend integration are left to applications built from this starter.
+An Angular 21 standalone starter for applications organized around domain boundaries. The current application is the Angular welcome screen; domain features, authentication, and backend integration are left to applications built from this starter.
 
 ## Getting started
 
@@ -19,7 +19,7 @@ The development server runs at http://localhost:4200. `mise.toml` pins Node 24.2
 
 ## Stack and checks
 
-Angular, CLI, Material, and CDK use version 22.2.1. TypeScript stays on 6.0.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`. PrimeNG 22.1.2 is also configured with Aura and PrimeIcons. Keep PrimeNG, Material, and Tailwind available together; choose components through local imports. See [UI library choices](docs/UI-LIBRARIES.md) for examples and design boundaries.
+Angular uses 21.2.25, CLI/build 21.2.24, and Material/CDK 21.2.14. TypeScript stays on 5.9.3 to match Angular's compiler compatibility. Tailwind CSS 4 is connected through PostCSS, alongside the Material theme in `src/styles.scss`. PrimeNG 21.1.10 is also configured with Aura and PrimeIcons. Keep PrimeNG, Material, and Tailwind available together; choose components through local imports. See [UI library choices](docs/UI-LIBRARIES.md) for examples and design boundaries.
 
 | Command                         | Purpose                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------- |
@@ -31,6 +31,8 @@ Angular, CLI, Material, and CDK use version 22.2.1. TypeScript stays on 6.0.3 to
 | `mise exec -- npm run lint:fix` | Apply lint fixes                                                            |
 | `mise exec -- npm run format`   | Format maintained project files                                             |
 | `mise exec -- npm run commit`   | Open the Conventional Commits prompt                                        |
+
+The Angular build worker pool uses a scoped Piscina 5.3.2 override for [the patched prototype-pollution advisory](https://github.com/advisories/GHSA-67c8-pqhq-4rmx).
 
 Tests use Angular's unit-test builder with Vitest and jsdom. The starter does not include an end-to-end test suite. VS Code tasks and launch configurations use mise to select the same tool versions.
 
@@ -58,6 +60,6 @@ Generated `graphify-out/` content and local `.codex/hooks.json` are ignored. Ski
 
 MIT © [Amin Azarpey](https://github.com/AminAzarpey)
 
-## PrimeUI Community activation
+## PrimeNG license choice
 
-Use an issued Community license key through the ignored `.env.local` file or the `PRIMEUI_LICENSE_KEY` build environment variable. See [activation instructions](docs/PRIMEUI-LICENSE.md). Restart the dev server or rebuild after setting the key.
+PrimeNG 21.1.10 is MIT-licensed and needs no key or account. The Angular 21 toolchain satisfies its peer requirements. See [license and compatibility notes](docs/PRIMEUI-LICENSE.md).

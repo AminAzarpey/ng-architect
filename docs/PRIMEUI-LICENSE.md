@@ -1,37 +1,17 @@
-# PrimeUI Community activation
+# PrimeNG license choice
 
-This project chooses the PrimeUI Community License for eligible developers. PrimeNG 22 still requires an issued license key to remove the `Invalid PrimeUI License` notice. Open-source status does not activate a license automatically.
+This project pins **PrimeNG 21.1.10**, the MIT-licensed release line. No PrimeUI account, license key, token, or activation step is needed. The [PrimeUI Community terms](https://primeui.dev/licenses/community) explicitly identify PrimeNG 21 and earlier as MIT-licensed versions.
 
-## Obtain your key
+PrimeNG 22 introduced the Community/Commercial licensing model and requires an issued license key even for eligible Community users. We selected v21 to keep this open-source starter key-free. Future upgrades to v22 or later must revisit that decision rather than silently introduce a key requirement.
 
-Register at the [PrimeUI Store](https://primeui.store), select the free Community license, confirm eligibility, and obtain your key. The [Community terms](https://primeui.dev/licenses/community) describe eligibility and annual renewal. Each developer working with PrimeUI needs the appropriate license; do not share a key in this repository.
+## Compatible versions
 
-## Local development
+PrimeNG 21 declares Angular and CDK 21 peers. The project therefore uses Angular 21.2.25, CLI/build 21.2.24, Material/CDK 21.2.14, and PrimeUI themes 2.0.3. TypeScript 5.9.3 and Vitest 4.1.11 satisfy the Angular 21 build requirements. Node/npm remain managed by mise.
 
-Create `.env.local` in the repository root, using `.env.example` as a template:
+## Development and builds
 
-```dotenv
-PRIMEUI_LICENSE_KEY=your-issued-community-license-key
-```
+Run `mise run dev`, `mise run build`, and `mise run check` normally. They invoke Angular CLI directly. The former license environment launcher and its example key file have been removed. An existing local `.env.local` is preserved and ignored, but is no longer read for PrimeNG activation.
 
-Then restart the development server:
+Angular Material and Tailwind CSS remain available alongside PrimeNG. Features choose components through local standalone imports; see [UI library choices](UI-LIBRARIES.md).
 
-```sh
-mise run dev
-```
-
-`.env.local` is ignored by Git and Prettier. The development/build launcher reads it, passes the value through Angular's `define` option, and the application supplies it to `providePrimeNG({ license: ... })`. Do not commit your issued key. If the variable is missing, the normal PrimeUI notice remains; the application does not hide or bypass license verification.
-
-## Builds and CI
-
-Use `mise run build` or `mise exec -- npm run build`. The same launcher reads `PRIMEUI_LICENSE_KEY` from the process environment, so a CI variable can supply it without a local file. An existing process environment value takes precedence over `.env.local`. The watch script uses the launcher too. Direct `ng` commands bypass it; use the project scripts when supplying a license.
-
-The key is included in the browser bundle, as required for offline verification. PrimeUI says the key contains no sensitive data, but must not be published for others to reuse. CI does not need its own developer seat. Unit tests use the normal unlicensed configuration and do not establish license validity.
-
-## Verify activation
-
-Reload the running application and check that the license notice and license console warning are gone. Repeat against the production build served locally. A successful build alone does not prove a key is valid. If the notice remains, check that the key was issued for your license and is current, then restart or rebuild after correcting it.
-
-Angular Material and Tailwind CSS remain installed and configured alongside PrimeNG. See [UI library choices](UI-LIBRARIES.md).
-
-References: [PrimeNG installation](https://primeng.dev/installation), [PrimeUI Community License](https://primeui.dev/licenses/community).
+The installed `node_modules/primeng/LICENSE.md` contains the package's MIT terms. Retain required license notices when distributing dependencies. See [PrimeNG 21 setup](https://v21.primeng.org/installation).

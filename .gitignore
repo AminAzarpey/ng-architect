@@ -47,5 +47,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Local license and environment configuration
+# Local environment configuration
 /.env.local
