@@ -13,17 +13,15 @@ npm install primeicons   # optional: the default icon set
 
 ## Configure the provider
 
-Add `providePrimeNG` (from `primeng/config`) and Angular's async animations provider in `app.config.ts`:
+Add `providePrimeNG` (from `primeng/config`) in `app.config.ts`:
 
 ```ts
 import { ApplicationConfig } from "@angular/core";
-import { provideAnimationsAsync } from "@angular/platform-browser/animations/async";
 import { providePrimeNG } from "primeng/config";
 import Aura from "@primeuix/themes/aura";
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideAnimationsAsync(),
     providePrimeNG({
       theme: { preset: Aura },
     }),
@@ -31,7 +29,7 @@ export const appConfig: ApplicationConfig = {
 };
 ```
 
-- **`provideAnimationsAsync()`** is required for components with transitions/overlays (Dialog, Toast, menus, etc.).
+- Installed PrimeNG 21.1.10 uses native CSS motion. Do not add legacy animation providers solely for older snippets. See [compatibility guidance](compatibility.md) and the [supplied animations guide](source/animations.md).
 - For `NgModule` apps, call the same providers in `bootstrapApplication`/the root module providers.
 
 ## Import PrimeIcons CSS
