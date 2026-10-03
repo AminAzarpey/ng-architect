@@ -1,0 +1,30 @@
+[tools]
+"npm:npm" = "12.2.0"
+node = "24.21.0"
+rtk = "0.47.0"
+"pipx:graphifyy" = "0.9.53"
+"npm:husky" = "9.1.7"
+
+[settings]
+activate_aggressive = true
+
+[tasks.install]
+description = "Install the exact dependency tree"
+run = "npm ci"
+
+[tasks.dev]
+description = "Start Angular on localhost:4200"
+run = "npm start"
+
+[tasks.build]
+run = "npm run build"
+
+[tasks.lint]
+run = "npm run lint"
+
+[tasks.test]
+run = "npm run test:ci"
+
+[tasks.check]
+description = "Check formatting, types, lint, tests, and build"
+run = ["npm run format:check", "npm run typecheck", "npm run lint", "npm run test:ci", "npm run build"]

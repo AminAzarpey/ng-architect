@@ -1,0 +1,4 @@
+interface:
+  display_name: "PrimeNG 21"
+  short_description: "Build Angular UIs with PrimeNG 21 reference guidance"
+  default_prompt: "Use $primeng to implement this Angular UI using the installed v21 APIs and the relevant documentation sections."

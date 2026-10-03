@@ -8,6 +8,8 @@
 
 # Node
 /node_modules
+/mise.local.toml
+/.mise/
 npm-debug.log
 yarn-error.log
 
@@ -37,6 +39,13 @@ yarn-error.log
 testem.log
 /typings
 
+# Local agent hooks and generated knowledge graph
+/graphify-out/
+/.codex/hooks.json
+
 # System files
 .DS_Store
 Thumbs.db
+
+# Local environment configuration
+/.env.local

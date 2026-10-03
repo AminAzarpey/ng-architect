@@ -26,7 +26,11 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": [
+              "src/tailwind.css",
+              "node_modules/primeicons/primeicons.css",
+              "src/styles.scss"
+            ]
           },
           "configurations": {
             "production": {
@@ -68,17 +72,9 @@
           "builder": "@angular/build:extract-i18n"
         },
         "test": {
-          "builder": "@angular/build:karma",
+          "builder": "@angular/build:unit-test",
           "options": {
-            "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": ["src/styles.scss"]
+            "tsConfig": "tsconfig.spec.json"
           }
         },
         "lint": {
@@ -91,6 +87,7 @@
     }
   },
   "cli": {
-    "schematicCollections": ["angular-eslint"]
+    "schematicCollections": ["angular-eslint"],
+    "analytics": false
   }
 }

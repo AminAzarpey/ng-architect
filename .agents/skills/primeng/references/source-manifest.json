@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "source_name": "Pasted text.txt",
+  "source_generated": "2026-06-04",
+  "source_bytes": 2132470,
+  "source_sha256": "c1636ec469552504de4220eae5c8e926835c51448034d2875d88e0068d73a634",
+  "sections": [
+    {
+      "title": "PrimeNG Documentation",
+      "path": "source/primeng-documentation.md",
+      "start_line": 1,
+      "line_count": 6,
+      "sha256": "519d22bd2ff7f41592d7c4d6a75845d9ca9f7789ebad87327ec24ce3caadbc71"
+    },
+    {
+      "title": "Guide Pages",
+      "path": "source/guide-pages.md",
+      "start_line": 7,
+      "line_count": 2,
+      "sha256": "35a32ab0c1917fc1abe6c6a75b70c1ac3aaf2cb1895825abe19b6a7580188294"
+    },
+    {
+      "title": "Installation",
+      "path": "source/installation.md",
+      "start_line": 9,
+      "line_count": 66,
+      "sha256": "ea4b03425cb7e54e48193210e8987ca643babb85134a33b35fd223a3fe31f131"
+    },
+    {
+      "title": "Configuration",
+      "path": "source/configuration.md",
+      "start_line": 75,
+      "line_count": 204,
+      "sha256": "4578ef1422da23f29502a31ff9bf238c9a562e2f5da7b8d5e4afec03c7e2c8be"
+    },
+    {
+      "title": "Styled Mode",
+      "path": "source/styled-mode.md",
+      "start_line": 279,
+      "line_count": 134,
+      "sha256": "e6a07887fa05375f8d6c90d5a017ce35d1d1381fc558d775d7cf9bde252c12b5"
+    },
+    {
+      "title": "Unstyled Mode",
+      "path": "source/unstyled-mode.md",
+      "start_line": 413,
+      "line_count": 45,
+      "sha256": "a714e88a4fbf4fe4b7c1b654091618ef1efab3e8bfe16cf1763fd01cb38343d1"
+    },
+    {
+      "title": "Icons",
+      "path": "source/icons.md",
+      "start_line": 458,
+      "line_count": 68,
+      "sha256": "4dceccb03a0444dc4dfd408b656395b5c669818bdc2c642241be16e2e51961e5"
+    },
+    {
+      "title": "Custom Icons",
+      "path": "source/custom-icons.md",
+      "start_line": 526,
+      "line_count": 22,
+      "sha256": "aa018de7f617146f6cdde09cb8be480e6cd9b37dca56695b12d1df2f7626b6e9"
+    },
+    {
+      "title": "Pass Through",
+      "path": "source/pass-through.md",
+      "start_line": 548,
+      "line_count": 34,
+      "sha256": "791538935a0365defcf2f714d69af5cde58adb483d3c63e457905d9821636606"
+    },
+    {
+      "title": "Tailwind CSS",
+      "path": "source/tailwind-css.md",
+      "start_line": 582,
+      "line_count": 42,
+      "sha256": "9d6c2db8548ec4d1386bba2530ca937d67f1fd076176dee2a6db55bafa52a631"
+    },
+    {
+      "title": "LLMs.txt",
+      "path": "source/llms-txt.md",
+      "start_line": 624,
+      "line_count": 18,
+      "sha256": "1cb1766e767bb0052788700e07739a1a085ca917140456099cb75b692939a265"
+    },
+    {
+      "title": "MCP Server",
+      "path": "source/mcp-server.md",
+      "start_line": 642,
+      "line_count": 97,
+      "sha256": "65ced42a1d0b589d4029d548f6fa821da3a3e3676340149605d9a57cf127b11a"
+    },
+    {
+      "title": "Accessibility",
+      "path": "source/accessibility.md",
+      "start_line": 739,
+      "line_count": 30,
+      "sha256": "13007e049bf4ab20203cb9b3fc8b1b7e4ae7a509e6f00f79db9516378dc5a4b8"
+    },
+    {
+      "title": "Animations",
+      "path": "source/animations.md",
+      "start_line": 769,
+      "line_count": 30,
+      "sha256": "fe77977ec799ddb693bf84ffdedff74c1a0a16f23cfda2b21c172d3245858d1f"
+    },
+    {
+      "title": "RTL",
+      "path": "source/rtl.md",
+      "start_line": 799,
+      "line_count": 14,
+      "sha256": "d8e9441687b851e77973f1d3d84f4ecbdf9c1d1e990b4661b03d4d8dd8f0fe94"
+    },
+    {
+      "title": "Migration v19",
+      "path": "source/migration-v19.md",
+      "start_line": 813,
+      "line_count": 22,
+      "sha256": "83b80097ce332b995c42023b97f402a57e9e70dff9637053c68a51329ff3d4ee"
+    },
+    {
+      "title": "Migration v20",
+      "path": "source/migration-v20.md",
+      "start_line": 835,
+      "line_count": 26,
+      "sha256": "ad18a4280bc46a36a92f1e96328fffe1dc110a5eb22ccb06eac63dfd49be5547"
+    },
+    {
+      "title": "Migration v21",
+      "path": "source/migration-v21.md",
+      "start_line": 861,
+      "line_count": 22,
+      "sha256": "dbf801ed4e7c678adb5050a6f62b51e4bcd3a91b618c7f026f0d95f91c645442"
+    },
+    {
+      "title": "Components",
+      "path": "source/components.md",
+      "start_line": 883,
+      "line_count": 2,
+      "sha256": "bec80f30882e63b000615897de7e3629fbb9462464f9ac6b6f0be2766ce63bef"
+    },
+    {
+      "title": "Angular Accordion Component",
+      "path": "source/angular-accordion-component.md",
+      "start_line": 885,
+      "line_count": 471,
+      "sha256": "8e9ee2faefe85cc908d7e1c4f25d2b8fdd2da911c0b69cfddd9bdcb2e23cf9af"
+    },
+    {
+      "title": "Angular Animate On Scroll Directive",
+      "path": "source/angular-animate-on-scroll-directive.md",
+      "start_line": 1356,
+      "line_count": 166,
+      "sha256": "c633286136168a7b2cdc547d350c291b6c563db35df460a21f72493c29d19789"
+    },
+    {
+      "title": "Angular AutoComplete Component",
+      "path": "source/angular-autocomplete-component.md",
+      "start_line": 1522,
+      "line_count": 1241,
+      "sha256": "d712bd514b5902d75bd77cc34773418d76d127f74ff1bab6cc9312df8a00c0e8"
+    },
+    {
+      "title": "Angular AutoFocus Directive",
+      "path": "source/angular-autofocus-directive.md",
+      "start_line": 2763,
+      "line_count": 42,
+      "sha256": "493c2a11f49d675b10ae4eaa87b203fa451867e3745012ac50efc06f10b9776d"
+    },
+    {
+      "title": "Angular Avatar Component",
+      "path": "source/angular-avatar-component.md",
+      "start_line": 2805,
+      "line_count": 440,
+      "sha256": "5dbc3f8264d686ff81a09346d64603f9fd3f636d23df5bcd2032d01895ea4cd4"
+    },
+    {
+      "title": "Angular Badge Component",
+      "path": "source/angular-badge-component.md",
+      "start_line": 3245,
+      "line_count": 274,
+      "sha256": "e3d87851555881930d6f246f65b6ac85e8312a9a287baae39ef464e51cbd029d"
+    },
+    {
+      "title": "Angular BlockUI Component",
+      "path": "source/angular-blockui-component.md",
+      "start_line": 3519,
+      "line_count": 115,
+      "sha256": "dce66d85de4357c9e39c2e246bc4e07fea226efd9c8129e13057785509efe2e4"
+    },
+    {
+      "title": "Angular Breadcrumb Component",
+      "path": "source/angular-breadcrumb-component.md",
+      "start_line": 3634,
+      "line_count": 186,
+      "sha256": "75d7fb811f6c24581ae512d3e2d7ec9feae1bd4b3c52f41c4f2dd3f7bcf100ac"
+    },
+    {
+      "title": "Angular Button Component",
+      "path": "source/angular-button-component.md",
+      "start_line": 3820,
+      "line_count": 843,
+      "sha256": "0a55923a038f6af5f568ecaeb1418da09db02b63f0023f515a84d80d09a1c7d8"
+    },
+    {
+      "title": "Angular Card Component",
+      "path": "source/angular-card-component.md",
+      "start_line": 4663,
+      "line_count": 145,
+      "sha256": "0fa0e221801ddfda6533d2ad503ae3ea0972ff70cf5bbc89a3a819c02bb6dc5a"
+    },
+    {
+      "title": "Angular Carousel Component",
+      "path": "source/angular-carousel-component.md",
+      "start_line": 4808,
+      "line_count": 451,
+      "sha256": "57bade139c8d08f77ed0f8b5a20a8607c3f47cf1a397dcf99ab50a4402ddc71c"
+    },
+    {
+      "title": "Angular CascadeSelect Component",
+      "path": "source/angular-cascadeselect-component.md",
+      "start_line": 5259,
+      "line_count": 1497,
+      "sha256": "1dc00aab16cb20ac287f9372f213c89b988d561027cff6ad4724b0610dc4b458"
+    },
+    {
+      "title": "Angular Chart Component",
+      "path": "source/angular-chart-component.md",
+      "start_line": 6756,
+      "line_count": 1248,
+      "sha256": "328284b969786c44e128567ccdfce9e615b90d572ea6ad8f570015eb21c4c119"
+    },
+    {
+      "title": "Angular Checkbox Component",
+      "path": "source/angular-checkbox-component.md",
+      "start_line": 8004,
+      "line_count": 554,
+      "sha256": "42b2f5664c7d3401db1ea6869a2a60639e751dd578d8c4e348976fc5c73e94a6"
+    },
+    {
+      "title": "Angular Chip Component",
+      "path": "source/angular-chip-component.md",
+      "start_line": 8558,
+      "line_count": 191,
+      "sha256": "f1d7147f5e59a008f734572d3ecdfa55d5a28425a99d6a18edb6a7e52e2680f0"
+    },
+    {
+      "title": "Angular ColorPicker Component",
+      "path": "source/angular-colorpicker-component.md",
+      "start_line": 8749,
+      "line_count": 318,
+      "sha256": "3468f3aa8ad75f47fb70c38940f3403f970c2519caabab34536596cf6c40b738"
+    },
+    {
+      "title": "Angular ConfirmDialog Component",
+      "path": "source/angular-confirmdialog-component.md",
+      "start_line": 9067,
+      "line_count": 304,
+      "sha256": "fbc77e48eb9593040dccf6d831cbe75ae734cafb2590d7533bd9572ca53c0681"
+    },
+    {
+      "title": "Angular ConfirmPopup Component",
+      "path": "source/angular-confirmpopup-component.md",
+      "start_line": 9371,
+      "line_count": 445,
+      "sha256": "9bf80f5ea6fa79f0d6ae23a77c15748d9b6700961eece264c73af7cffc0e9659"
+    },
+    {
+      "title": "Angular ContextMenu Component",
+      "path": "source/angular-contextmenu-component.md",
+      "start_line": 9816,
+      "line_count": 504,
+      "sha256": "74c5f0e3fc4fbd1a8a5f0a3e3dd777386e054a9f5ca6df29c9be1203ca185992"
+    },
+    {
+      "title": "Angular DataView Component",
+      "path": "source/angular-dataview-component.md",
+      "start_line": 10320,
+      "line_count": 615,
+      "sha256": "731fc5d8f76b9cff0148939e938e9119913057e9711b983f25600ed2f3b2c0fd"
+    },
+    {
+      "title": "Angular DatePicker Component",
+      "path": "source/angular-datepicker-component.md",
+      "start_line": 10935,
+      "line_count": 1325,
+      "sha256": "6ac3c3ff7aa7fd5082c57e2ba8471fb4c5cdcb0c7b20edf51632bad9d23cb9a8"
+    },
+    {
+      "title": "Angular Dialog Component",
+      "path": "source/angular-dialog-component.md",
+      "start_line": 12260,
+      "line_count": 646,
+      "sha256": "b83c0145fe8414fa79fcc50f7caa96f9fb7c700a09c477a8fe396915cef54e5b"
+    },
+    {
+      "title": "Angular Divider Component",
+      "path": "source/angular-divider-component.md",
+      "start_line": 12906,
+      "line_count": 263,
+      "sha256": "a69e84c05d6eb6cd2884a67379e2718e83fc244d23163c00c379e70d834bdda2"
+    },
+    {
+      "title": "Angular Dock Component",
+      "path": "source/angular-dock-component.md",
+      "start_line": 13169,
+      "line_count": 507,
+      "sha256": "612e9f761d29fa309cbee132210e7c717b1992525f3dd26500fd7fd133f21f6e"
+    },
+    {
+      "title": "Angular Drag and Drop Component",
+      "path": "source/angular-drag-and-drop-component.md",
+      "start_line": 13676,
+      "line_count": 333,
+      "sha256": "501ec3801d8c7230a84021a4792d90e831ea96bc3916ca64b3a350cd28e4e2fa"
+    },
+    {
+      "title": "Angular Drawer Component",
+      "path": "source/angular-drawer-component.md",
+      "start_line": 14009,
+      "line_count": 527,
+      "sha256": "3143b7c6b7591a96cd6713734ec3d7685aec45a4c79b1b0bad12b29470af6f22"
+    },
+    {
+      "title": "Angular Dynamic Dialog Component",
+      "path": "source/angular-dynamic-dialog-component.md",
+      "start_line": 14536,
+      "line_count": 113,
+      "sha256": "8e9313dac48925ed04183859a345dc148e49747934f63791c07776c4ce22f4bf"
+    },
+    {
+      "title": "Angular Editor Component",
+      "path": "source/angular-editor-component.md",
+      "start_line": 14649,
+      "line_count": 304,
+      "sha256": "5be54b3b1500cdb1adf1cee1747d33e453b78bb2b3176e6b55fb5131ee5c512f"
+    },
+    {
+      "title": "Angular Fieldset Component",
+      "path": "source/angular-fieldset-component.md",
+      "start_line": 14953,
+      "line_count": 192,
+      "sha256": "cf03011f1370733e4f6956268784831c7cf14e801958b6552e54a207b0fcade1"
+    },
+    {
+      "title": "Angular FileUpload Component",
+      "path": "source/angular-fileupload-component.md",
+      "start_line": 15145,
+      "line_count": 443,
+      "sha256": "04e87ae71bfd9a15123cd91521cd148c34317982ef207f28bf579f2e4d1050e4"
+    },
+    {
+      "title": "Angular Float Label Component",
+      "path": "source/angular-float-label-component.md",
+      "start_line": 15588,
+      "line_count": 163,
+      "sha256": "d0ba38677d65ba4e3eba07d0c71359b015d7de4bceba79564cb31f6fdf0a4481"
+    },
+    {
+      "title": "Angular Fluid Component",
+      "path": "source/angular-fluid-component.md",
+      "start_line": 15751,
+      "line_count": 76,
+      "sha256": "d0122e6fcb614a72eae5ca8f80d5057c22e79168095eda145366fbe367a09079"
+    },
+    {
+      "title": "Angular Focus Trap Component",
+      "path": "source/angular-focus-trap-component.md",
+      "start_line": 15827,
+      "line_count": 69,
+      "sha256": "3bcf7fad87472339b3a4596787daa759fead5098564cbaa65586d7bc6f7f008e"
+    },
+    {
+      "title": "Angular Gallery Component",
+      "path": "source/angular-gallery-component.md",
+      "start_line": 15896,
+      "line_count": 653,
+      "sha256": "5da21317f85a3dd8d6467f6a837e7edeff995c929b311c097aad8a5f83ce7e70"
+    },
+    {
+      "title": "Angular IconField Component",
+      "path": "source/angular-iconfield-component.md",
+      "start_line": 16549,
+      "line_count": 259,
+      "sha256": "ed0e0246ce98163d8feb5d40996d379e24f472fd1df386c29caf0ee12efc8ae8"
+    },
+    {
+      "title": "Angular Ifta Label Component",
+      "path": "source/angular-ifta-label-component.md",
+      "start_line": 16808,
+      "line_count": 111,
+      "sha256": "42eb6b31747eebdfd226ac2de17e4031075611430fe1ba952238c6c93ecf83b0"
+    },
+    {
+      "title": "Angular Image Component",
+      "path": "source/angular-image-component.md",
+      "start_line": 16919,
+      "line_count": 230,
+      "sha256": "da4d06c27818d206c479ae60eb7858cfa7aefaca12a8be2867ebfa905eb2ddc4"
+    },
+    {
+      "title": "Angular ImageCompare Component",
+      "path": "source/angular-imagecompare-component.md",
+      "start_line": 17149,
+      "line_count": 126,
+      "sha256": "b5dd9e0be7f025237ff904f46db0970b97b217a90259f564cf0030de3b0408f3"
+    },
+    {
+      "title": "Angular Inplace Component",
+      "path": "source/angular-inplace-component.md",
+      "start_line": 17275,
+      "line_count": 244,
+      "sha256": "e79549327f201eb0bdd656926e5469dedad77543126bdb75561d7e4054cd1927"
+    },
+    {
+      "title": "Angular InputGroup Component",
+      "path": "source/angular-inputgroup-component.md",
+      "start_line": 17519,
+      "line_count": 321,
+      "sha256": "772c7a9b0b7e58624dbc2951929a6bf6f85a9e298718c2aaad309916d6db1831"
+    },
+    {
+      "title": "Angular InputMask Component",
+      "path": "source/angular-inputmask-component.md",
+      "start_line": 17840,
+      "line_count": 575,
+      "sha256": "16e1957d2ffbce7ee3cc7d192c45bfbfbbf6ca647d8dbccbb98acefb8c3f3ef0"
+    },
+    {
+      "title": "Angular InputNumber Component",
+      "path": "source/angular-inputnumber-component.md",
+      "start_line": 18415,
+      "line_count": 710,
+      "sha256": "1f5a439a631d47cadd6a12765c46c3da1444852228c09e4875ed54f097b5fcfe"
+    },
+    {
+      "title": "Angular Otp Input Component",
+      "path": "source/angular-otp-input-component.md",
+      "start_line": 19125,
+      "line_count": 354,
+      "sha256": "4509c248cd6c1911728ca0ba7a0f57c38ae0ccae1a22a0432a7bc8bc63052e57"
+    },
+    {
+      "title": "Angular InputText Component",
+      "path": "source/angular-inputtext-component.md",
+      "start_line": 19479,
+      "line_count": 516,
+      "sha256": "27bb0cd1a0f18c27f90fb062c5dcdae13ddcdf95f79f0fbeb0633fafc5b958c9"
+    },
+    {
+      "title": "Angular KeyFilter Component",
+      "path": "source/angular-keyfilter-component.md",
+      "start_line": 19995,
+      "line_count": 108,
+      "sha256": "b95dd88d658a6834971436b9190a2b1212022ef9d0664f8b08c22fb331a5e305"
+    },
+    {
+      "title": "Angular Knob Component",
+      "path": "source/angular-knob-component.md",
+      "start_line": 20103,
+      "line_count": 489,
+      "sha256": "b97c809c5eecc56c679bdcd0605eee202cda5f7282d69590aabd835663881ea2"
+    },
+    {
+      "title": "Angular Listbox Component",
+      "path": "source/angular-listbox-component.md",
+      "start_line": 20592,
+      "line_count": 827,
+      "sha256": "9d7bbcdd7af818aa4de63c22619daac0371fc5cf283fbf8c4aacb0f22dc69bca"
+    },
+    {
+      "title": "LLMs.txt - PrimeNG",
+      "path": "source/llms-txt-primeng.md",
+      "start_line": 21419,
+      "line_count": 18,
+      "sha256": "999cd18d45cd1cbe08498b7c81fdb9702ff0a58273e05c44de3c91d5009d4b66"
+    },
+    {
+      "title": "MCP Server - PrimeNG",
+      "path": "source/mcp-server-primeng.md",
+      "start_line": 21437,
+      "line_count": 42,
+      "sha256": "619657fddcdd8d39954c26c43a4049ddb0126c2d8911e5de30b9820635aaef9a"
+    },
+    {
+      "title": "Angular MegaMenu Component",
+      "path": "source/angular-megamenu-component.md",
+      "start_line": 21479,
+      "line_count": 613,
+      "sha256": "c386488112afd30225bf576adaec995dc7735da7afaa13953cbd4e262f5da8ae"
+    },
+    {
+      "title": "Angular Menu Component",
+      "path": "source/angular-menu-component.md",
+      "start_line": 22092,
+      "line_count": 500,
+      "sha256": "c530fc5c5f168fc7068ba8065f81ee3770406dec4e2d0651284041ce49928035"
+    },
+    {
+      "title": "Angular Menubar Component",
+      "path": "source/angular-menubar-component.md",
+      "start_line": 22592,
+      "line_count": 475,
+      "sha256": "bfd55b4952a6ec71a4b8b4849c91143fb17ad9e7a00939e513005863f408be8f"
+    },
+    {
+      "title": "Angular Message Component",
+      "path": "source/angular-message-component.md",
+      "start_line": 23067,
+      "line_count": 474,
+      "sha256": "8c5d6e3125289db9a7a85dfa3ef33437f8e35a385ff7a8cc492e9a6fa7b6b347"
+    },
+    {
+      "title": "Angular MeterGroup Component",
+      "path": "source/angular-metergroup-component.md",
+      "start_line": 23541,
+      "line_count": 287,
+      "sha256": "bae00b98815af06e44a8a093364aa54f83303468dc6f4a3c5ceb01f80b291bf5"
+    },
+    {
+      "title": "Angular MultiSelect Component",
+      "path": "source/angular-multiselect-component.md",
+      "start_line": 23828,
+      "line_count": 1085,
+      "sha256": "5ab577ba2c142a06bbb82acdd40c5021e2ce50b9f5a1f08297d16ef1b207d17e"
+    },
+    {
+      "title": "Angular OrderList Component",
+      "path": "source/angular-orderlist-component.md",
+      "start_line": 24913,
+      "line_count": 354,
+      "sha256": "96cf647009007c0463a534e27024f64d88ba9e1c7403b44c4da83ad7e6fcb618"
+    },
+    {
+      "title": "Angular Organization Chart Component",
+      "path": "source/angular-organization-chart-component.md",
+      "start_line": 25267,
+      "line_count": 236,
+      "sha256": "b3c2229398e39e03b8cedc4f9bb7ac487e4934f3a30a52f4036c120443fa9b55"
+    },
+    {
+      "title": "Overlay API - PrimeNG",
+      "path": "source/overlay-api-primeng.md",
+      "start_line": 25503,
+      "line_count": 238,
+      "sha256": "adbaf13ee7595486ccf92fe318548ffe22ebde8c2f1c1b7fa6ae6d7967dc085e"
+    },
+    {
+      "title": "Angular Paginator Component",
+      "path": "source/angular-paginator-component.md",
+      "start_line": 25741,
+      "line_count": 326,
+      "sha256": "896c09ec47851a62a56f032faba11c6b70e0f8604544617af1b5949c1f6ece63"
+    },
+    {
+      "title": "Angular Panel Component",
+      "path": "source/angular-panel-component.md",
+      "start_line": 26067,
+      "line_count": 225,
+      "sha256": "6b22bd55381c301205e46115a76432983e38d18491576ecbf3ec91fc7a0b6356"
+    },
+    {
+      "title": "Angular PanelMenu Component",
+      "path": "source/angular-panelmenu-component.md",
+      "start_line": 26292,
+      "line_count": 716,
+      "sha256": "d159763da0876d30552e6cd8543610dc44203f9fbc32cc965eccdb77603ef542"
+    },
+    {
+      "title": "Angular Password Component",
+      "path": "source/angular-password-component.md",
+      "start_line": 27008,
+      "line_count": 634,
+      "sha256": "e0d1d07ffa24ffab243309432632350932a43f6be779b55a4114dd1ff9388f07"
+    },
+    {
+      "title": "Angular PickList Component",
+      "path": "source/angular-picklist-component.md",
+      "start_line": 27642,
+      "line_count": 430,
+      "sha256": "37616aab4e1ed49783dabb6bf36504514af55246cb7d8b63cc95ce1dd5517928"
+    },
+    {
+      "title": "Angular Popover Component",
+      "path": "source/angular-popover-component.md",
+      "start_line": 28072,
+      "line_count": 393,
+      "sha256": "3a796d3a767f0dd1d2e7232249043ef3bb1649fe9e47754d9fbb3fb00f068560"
+    },
+    {
+      "title": "Angular ProgressBar Component",
+      "path": "source/angular-progressbar-component.md",
+      "start_line": 28465,
+      "line_count": 192,
+      "sha256": "0c65f669911fa5464af3cb288b184e2d81f295cf3e6ae7c15933c3bbe0e9bff5"
+    },
+    {
+      "title": "Angular ProgressSpinner Component",
+      "path": "source/angular-progressspinner-component.md",
+      "start_line": 28657,
+      "line_count": 98,
+      "sha256": "baf174c0414ecbaa3c45da454ae514b909e75adf0bf5f1f139940d7459ce364a"
+    },
+    {
+      "title": "Angular RadioButton Component",
+      "path": "source/angular-radiobutton-component.md",
+      "start_line": 28755,
+      "line_count": 436,
+      "sha256": "a1ea17db419a8c9d7db71f4e9669ed9484fa09ce90a533e43d8657efa5b99edf"
+    },
+    {
+      "title": "Angular Rating Component",
+      "path": "source/angular-rating-component.md",
+      "start_line": 29191,
+      "line_count": 353,
+      "sha256": "ca09a6adb1c3c49ea6313688c2da29096bb61c4416f14f1579bdaf34dce2501d"
+    },
+    {
+      "title": "Angular Ripple Component",
+      "path": "source/angular-ripple-component.md",
+      "start_line": 29544,
+      "line_count": 95,
+      "sha256": "bb93b43252eba4ca2d269707050d6de31050b052c0d88db8c49daa8c3f0fcd47"
+    },
+    {
+      "title": "Angular Virtual Scroller Component",
+      "path": "source/angular-virtual-scroller-component.md",
+      "start_line": 29639,
+      "line_count": 124,
+      "sha256": "024a59f8e4d31aac1b42ada2293aebeaca0de5e51d1ba8372663a0b68e58a419"
+    },
+    {
+      "title": "Angular Scroll Panel Component",
+      "path": "source/angular-scroll-panel-component.md",
+      "start_line": 29763,
+      "line_count": 156,
+      "sha256": "7f0c7f0df7c560a63c07dbb41c2c9b6e913017e32852de618f2e143232a3d9d9"
+    },
+    {
+      "title": "Angular Scroll Top Component",
+      "path": "source/angular-scroll-top-component.md",
+      "start_line": 29919,
+      "line_count": 113,
+      "sha256": "a00be6db2139b31a1ec756c1417b35b02f59c318b1a311b60a61c46c17b5b7d2"
+    },
+    {
+      "title": "Angular Select Component",
+      "path": "source/angular-select-component.md",
+      "start_line": 30032,
+      "line_count": 1252,
+      "sha256": "ba96abfc3c780456c9d80b058156c667be1bacc5a182020854b57b11d293e80d"
+    },
+    {
+      "title": "Angular SelectButton Component",
+      "path": "source/angular-selectbutton-component.md",
+      "start_line": 31284,
+      "line_count": 376,
+      "sha256": "f11a1c2f61a29d6219bfb9e9bed998f089f99e9ace08dfae089369373b63aa4c"
+    },
+    {
+      "title": "Angular Skeleton Component",
+      "path": "source/angular-skeleton-component.md",
+      "start_line": 31660,
+      "line_count": 252,
+      "sha256": "72e02389e5b3bd4dec186224fb5ad4f1b4dc5987dd6f14dcc883dc19cc9ef82c"
+    },
+    {
+      "title": "Angular Slider Component",
+      "path": "source/angular-slider-component.md",
+      "start_line": 31912,
+      "line_count": 356,
+      "sha256": "160e7221c0602fc0cb5fc81d3084f88db3d9b08d04feffeaa065b7bf632ecb62"
+    },
+    {
+      "title": "Angular Speed Dial Component",
+      "path": "source/angular-speed-dial-component.md",
+      "start_line": 32268,
+      "line_count": 605,
+      "sha256": "912c1ae9ef8f01500473fc2e070016d7433802362d0ebe371d6bca0e7af4ab41"
+    },
+    {
+      "title": "Angular SplitButton Component",
+      "path": "source/angular-splitbutton-component.md",
+      "start_line": 32873,
+      "line_count": 976,
+      "sha256": "32f4eacf495a9aa1be2cb1d60c022369137e77bca285fc4749b6c2dd6eeb010f"
+    },
+    {
+      "title": "Angular Splitter Component",
+      "path": "source/angular-splitter-component.md",
+      "start_line": 33849,
+      "line_count": 207,
+      "sha256": "8630491a201bdefe05e6e947a8f2057aa973951d2a058533622209540cebedf5"
+    },
+    {
+      "title": "Angular Stepper Component",
+      "path": "source/angular-stepper-component.md",
+      "start_line": 34056,
+      "line_count": 489,
+      "sha256": "f851a6002a3fb1d150dbbc0498614acb39b9fcc7ae04053dbe2eb5777800d7f6"
+    },
+    {
+      "title": "Angular StyleClass Component",
+      "path": "source/angular-styleclass-component.md",
+      "start_line": 34545,
+      "line_count": 134,
+      "sha256": "6850f57ca31c6cb7cd52729a2401f655249a7ae53161fb68885ce92e765c9e9d"
+    },
+    {
+      "title": "Angular Table Component",
+      "path": "source/angular-table-component.md",
+      "start_line": 34679,
+      "line_count": 4730,
+      "sha256": "48b6cb1a7fdf4c8a708ffc7f813b34db1c5e3b145750bc678282b23d3f43cfaa"
+    },
+    {
+      "title": "Angular Tabs Component",
+      "path": "source/angular-tabs-component.md",
+      "start_line": 39409,
+      "line_count": 485,
+      "sha256": "096135bddcdefd2c88626b9e4e4b00394a416beff60331c4e81e94972fb12c68"
+    },
+    {
+      "title": "Angular Tag Component",
+      "path": "source/angular-tag-component.md",
+      "start_line": 39894,
+      "line_count": 213,
+      "sha256": "287428d5cfe7b8424341d3048743737d23a07452df19df3435e80e4255097d26"
+    },
+    {
+      "title": "Angular Terminal Component",
+      "path": "source/angular-terminal-component.md",
+      "start_line": 40107,
+      "line_count": 123,
+      "sha256": "35f9125bd00dc51715d8532f57a74e5e861634417474580b0696467db7dd48ef"
+    },
+    {
+      "title": "Angular Textarea Component",
+      "path": "source/angular-textarea-component.md",
+      "start_line": 40230,
+      "line_count": 442,
+      "sha256": "e1c369c4cb68dd40cc857bfe457ae37c9be6156d8e0ab9cf1eb82e53a135f597"
+    },
+    {
+      "title": "Angular TieredMenu Component",
+      "path": "source/angular-tieredmenu-component.md",
+      "start_line": 40672,
+      "line_count": 596,
+      "sha256": "41dd1ef49590a7c75b76f1c260f2ef6cacfd9260a3a88943fb5125df8670590d"
+    },
+    {
+      "title": "Angular Timeline Component",
+      "path": "source/angular-timeline-component.md",
+      "start_line": 41268,
+      "line_count": 323,
+      "sha256": "f1a7e21fcdd7fcfbfa1c884cdf0a7b6fb3a36d8094c8175773f89737f9ba3c81"
+    },
+    {
+      "title": "Angular Toast Component",
+      "path": "source/angular-toast-component.md",
+      "start_line": 41591,
+      "line_count": 625,
+      "sha256": "17a00f03f3f203587cf8a40aab4792cf4adbf1ffa4032623da8bce31a982b7e6"
+    },
+    {
+      "title": "Angular ToggleButton Component",
+      "path": "source/angular-togglebutton-component.md",
+      "start_line": 42216,
+      "line_count": 376,
+      "sha256": "0dc1972b963f269bdfd5f4557fc09642415b5ea6818207106b7be44e773751aa"
+    },
+    {
+      "title": "Angular ToggleSwitch Component",
+      "path": "source/angular-toggleswitch-component.md",
+      "start_line": 42592,
+      "line_count": 340,
+      "sha256": "034e530bc700c017d9e34836c611064b53dbdf01812c5487f3003ee40daea9b1"
+    },
+    {
+      "title": "Angular Toolbar Component",
+      "path": "source/angular-toolbar-component.md",
+      "start_line": 42932,
+      "line_count": 189,
+      "sha256": "7447bd272d05ef6ddecb536f898be0003b2785e942a5f82fd4bdbea406267293"
+    },
+    {
+      "title": "Angular Tooltip Component",
+      "path": "source/angular-tooltip-component.md",
+      "start_line": 43121,
+      "line_count": 253,
+      "sha256": "ebe91d30a24a7f8bd9d9d6d10ba4978701ef00c06b50f59e481b8e17424b9526"
+    },
+    {
+      "title": "Angular Tree Component",
+      "path": "source/angular-tree-component.md",
+      "start_line": 43374,
+      "line_count": 774,
+      "sha256": "0da9b614a969a78faac369c5759f801c15aaa9c7ecf8d1a8080955e6b51fde0b"
+    },
+    {
+      "title": "Angular TreeSelect Component",
+      "path": "source/angular-treeselect-component.md",
+      "start_line": 44148,
+      "line_count": 951,
+      "sha256": "bb56acd3342346fa4dd2784a6e9e0881dd97afdf61a973035afac4169454502c"
+    },
+    {
+      "title": "Angular TreeTable Component",
+      "path": "source/angular-treetable-component.md",
+      "start_line": 45099,
+      "line_count": 2883,
+      "sha256": "2cc15de26d2c86b5b7640ca8339d6d9d1d3d8abd3895228698ef47eb95884f97"
+    }
+  ]
+}

@@ -1,4 +1,13 @@
-package.json
+node_modules/
+dist/
+.angular/
+coverage/
+.codex/
+.agents/
+.aider-desk/
+.vscode/settings.json
+AGENTS.md
+CLAUDE.md
+graphify-out/
 package-lock.json
-dist
-node_modules
+.env.local
